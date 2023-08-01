@@ -185,8 +185,7 @@
                 </a>
             </div>
             <h2>MDCAT Merit Calculator </h2>
-            <h3> Add your SSC, HSSC & MDCAT scores to evaluate your aggregate as per PMC aggregate formula for MDCAT
-                2022.
+            <h3> <center>Add your SSC, HSSC & MDCAT scores to calculate your aggregate as per PMDC aggregate fromula.</center>
                 </p>
                 <b> SSC Marks</b>
                 <input type="number" id="ssc_marks" placeholder="SSC Marks">
@@ -202,10 +201,13 @@
                 <b>MDCAT Marks</b>
 
                 <input type="number" id="mdcat_marks" placeholder="MDCAT Marks">
+                <button type="button" onclick="calculate()">Calculate</button>
+                <p></p>
+
                 <b>MDCAT Aggregate</b>
+                <p></p>
 
                 <input type="text" id="result" readonly>
-                <button type="button" onclick="calculate()">Calculate</button>
 
         </div>
     </form>
